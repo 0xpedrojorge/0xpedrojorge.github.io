@@ -28,8 +28,9 @@
 	h1{ font-size: 2.8em; line-height: 1; }
 	h2{ font-size: 2.2em; line-height: 1.1; }
 	h3{ font-size: 1.8em; }
-		
-	
+	.main-area .notify-area .email-input { padding: 8px 20px; }
+	.main-area .notify-area .email-input::placeholder { font-size: 12px; }
+	.main-area .notify-area .notify-btn { padding: 9px 21px; }
 	
 }
 
