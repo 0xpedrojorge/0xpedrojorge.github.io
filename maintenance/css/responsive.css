@@ -43,7 +43,7 @@
 
 	body{ font-size: 12px; }
 	.main-area .notify-area .email-input { padding: 8px 20px; }
-	.main-area .notify-area .email-input::placeholder { font-size: 9px; }
+	.main-area .notify-area .email-input::placeholder { font-size: 10px; }
 	.main-area .notify-area .notify-btn { padding: 9px 21px; }
 	
 }
