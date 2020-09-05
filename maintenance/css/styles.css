@@ -116,11 +116,20 @@ b.light-color{ color: #444; }
 	opacity: .4; background: #000; }
 
 .main-area .desc{ margin: 20px auto; max-width: 500px; }
-	
-.main-area .notify-btn{ padding: 13px 35px; border-radius: 50px; border: 2px solid #F84982;
-	color: #fff; background: #F84982; }
 
-.main-area .notify-btn:hover{ background: none; }
+.main-area .notify-area { border-radius: 50px; border: 2px solid #F84982; background-color: white;}
+
+.main-area .notify-area .email-input { outline: none; padding: 13px 35px; border: 0; border-radius: 50px 0 0 50px; }
+
+.main-area .notify-area .email-input::placeholder {
+ font-size: 14px;
+}
+
+.main-area .notify-area .email-input::-moz-placeholder { opacity: 1 !important; }
+	
+.main-area .notify-area .notify-btn{ padding: 14px 36px; border-radius: 0 50px 50px 0; border-left: 2px solid #F84982; color: #fff; background: #F84982; }
+
+.main-area .notify-area .notify-btn:hover{ background: none; color: #F84982;}
 
 .main-area .social-btn{ position: absolute; bottom: 40px; width: 100%; left: 50%; transform: translateX(-50%); }
 
