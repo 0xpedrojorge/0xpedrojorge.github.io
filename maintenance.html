@@ -26,10 +26,10 @@
 				<p class="desc font-white">My website is currently undergoing scheduled maintenance.
 					It should be back shortly. Thank you for your patience.</p>
 				
-				<div class="notify-area">
+				<form id="subscribe-form" class="notify-area" action="https://formspree.io/myynrewg" method="POST">
 					<input class="email-input" type="email" placeholder="Your email address" name="email" required>
-					<a class="notify-btn" href="#"><b>NOTIFY ME</b></a>
-				</div>
+					<a class="notify-btn" href="javascript: submitEmailSubscription();"><b>NOTIFY ME</b></a>
+				</form>
 				
 				<ul class="social-btn font-white">
 					<li><a href="https://www.linkedin.com/in/pedro-jorge-9677a4115">linkedin</a></li>
@@ -41,5 +41,7 @@
 		</div><!-- display-table-cell -->
 	</div><!-- main-area -->
 	
+	<!-- Scripts -->
+	<script src="maintenance/js/maintenance.js"></script>
 </body>
 </html>
