@@ -127,7 +127,7 @@ b.light-color{ color: #444; }
 
 .main-area .notify-area .email-input::-moz-placeholder { opacity: 1 !important; }
 	
-.main-area .notify-area .notify-btn{ padding: 14px 36px; border-radius: 0 50px 50px 0; border-left: 2px solid #F84982; color: #fff; background: #F84982; }
+.main-area .notify-area .notify-btn{ padding: 14px 36px; border-radius: 0 50px 50px 0; border-left: 2px solid #F84982; color: #fff; background: #F84982; opacity: 0.8;}
 
 .main-area .notify-area .notify-btn:hover{ background: none; color: #F84982;}
 
