@@ -117,7 +117,7 @@ b.light-color{ color: #444; }
 
 .main-area .desc{ margin: 20px auto; max-width: 500px; }
 
-.main-area .notify-area { display: inline-flex; max-width: 395.563px; border-radius: 50px; border: 2px solid #F84982; background-color: white;}
+.main-area .notify-area { display: inline-flex; max-width: 395.563px; border-radius: 50px; border: 2px solid #e44c65; background-color: white;}
 
 .main-area .notify-area .email-input { outline: none; padding: 13px 35px; border: 0; border-radius: 50px 0 0 50px; }
 
@@ -127,16 +127,16 @@ b.light-color{ color: #444; }
 
 .main-area .notify-area .email-input::-moz-placeholder { opacity: 1 !important; }
 	
-.main-area .notify-area .notify-btn{ padding: 14px 36px; border-radius: 0 50px 50px 0; border-left: 2px solid #F84982; color: #fff; background: #F84982; opacity: 0.8;}
+.main-area .notify-area .notify-btn{ padding: 14px 36px; border-radius: 0 50px 50px 0; border-left: 2px solid #e44c65; color: #fff; background: #e44c65; opacity: 0.8;}
 
-.main-area .notify-area .notify-btn:hover{ background: none; color: #F84982;}
+.main-area .notify-area .notify-btn:hover{ background: none; color: #fff; background: #e76278;}
 
 .main-area .social-btn{ position: absolute; bottom: 40px; width: 100%; left: 50%; transform: translateX(-50%); }
 
 .main-area .social-btn > li > a{ margin: 0 10px; padding-bottom: 7px; position: relative; overflow: hidden; }
 
 .main-area .social-btn > li > a:after{ content:''; position: absolute; bottom: 0; left: 0; right: 0; 
-	transition: all .2s; height: 2px; background: #F84982; }
+	transition: all .2s; height: 2px; background: #e44c65; }
 
 	
 .main-area .social-btn > li > a:hover:after{ transform: translateX(100%); }
