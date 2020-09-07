@@ -3898,7 +3898,7 @@ input, select, textarea {
 
 				#titleBar .title {
 					color: #ffffff;
-					display: block;
+					display: none;
 					font-weight: 300;
 					height: 44px;
 					line-height: 44px;
@@ -3913,10 +3913,10 @@ input, select, textarea {
 				#titleBar .toggle {
 					text-decoration: none;
 					height: 60px;
-					left: 0;
+					right: 0;
 					position: absolute;
 					top: 0;
-					width: 90px;
+					width: 54px;
 					outline: 0;
 					border: 0;
 				}
@@ -3954,17 +3954,17 @@ input, select, textarea {
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
-				-moz-transform: translateX(-275px);
-				-webkit-transform: translateX(-275px);
-				-ms-transform: translateX(-275px);
-				transform: translateX(-275px);
+				-moz-transform: translateX(275px);
+				-webkit-transform: translateX(275px);
+				-ms-transform: translateX(275px);
+				transform: translateX(275px);
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
 				height: 100%;
-				left: 0;
+				right: 0;
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
@@ -4021,19 +4021,18 @@ input, select, textarea {
 						display: inline-block;
 						width: 6.25em;
 					}
-
 			body.navPanel-visible #page-wrapper {
-				-moz-transform: translateX(275px);
-				-webkit-transform: translateX(275px);
-				-ms-transform: translateX(275px);
-				transform: translateX(275px);
+				-moz-transform: translateX(-275px);
+				-webkit-transform: translateX(-275px);
+				-ms-transform: translateX(-275px);
+				transform: translateX(-275px);
 			}
 
 			body.navPanel-visible #titleBar {
-				-moz-transform: translateX(275px);
-				-webkit-transform: translateX(275px);
-				-ms-transform: translateX(275px);
-				transform: translateX(275px);
+				-moz-transform: translateX(-275px);
+				-webkit-transform: translateX(-275px);
+				-ms-transform: translateX(-275px);
+				transform: translateX(-275px);
 			}
 
 			body.navPanel-visible #navPanel {
@@ -4042,6 +4041,7 @@ input, select, textarea {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
+			
 
 		/* Footer */
 
